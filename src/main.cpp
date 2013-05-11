@@ -5,7 +5,7 @@
 // walk towards one another and swap values
 
 #include <stdio.h>
-
+//digvijay
 
 void reverse_string(char* start){
 
