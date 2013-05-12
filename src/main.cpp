@@ -42,7 +42,7 @@ char b[100],*rev;
   printf("\nEnetr String:");
   gets(b);
   rev=strrev(b);
-  printf("Reverse string:%s \n\n",rev);
+  printf(" Reverse string:%s \n\n",rev);
 
   return 0;
 }
