@@ -5,6 +5,7 @@
 // walk towards one another and swap values
 
 #include <stdio.h>
+#include<string.h>
 //digvijay
 
 void reverse_string(char* start){
@@ -31,14 +32,17 @@ void reverse_string(char* start){
 int main(){
 
   char a[] = "watermelon";
-  char b[] = "fleamarket";
-
+//  char b[] = "fleamarket";
+char b[100],*rev;
   
-  reverse_string(a);
-  reverse_string(b);
+//  reverse_string(a);
+//  reverse_string(b);
 
-  printf("%s \n",a);
-  printf("%s \n\n",b);
+//  printf("%s \n",a);
+  printf("\nEnetr String:");
+  gets(b);
+  rev=strrev(b);
+  printf("Reverse string:%s \n\n",rev);
 
   return 0;
 }
